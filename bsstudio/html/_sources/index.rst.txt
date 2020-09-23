@@ -10,7 +10,7 @@ Welcome to bsstudio's documentation!
    :maxdepth: 2
    :caption: Contents:
 
-.. image:: Bikesgray.jpg
+.. image:: images/Bikesgray.jpg
 
 
 Indices and tables
@@ -19,3 +19,8 @@ Indices and tables
 * :ref:`genindex`
 * :ref:`modindex`
 * :ref:`search`
+
+Hello World
+===========
+
+Once you have installed bsstudio, type "designer" to load the designer. 
