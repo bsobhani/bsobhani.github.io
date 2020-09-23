@@ -10,6 +10,7 @@ Welcome to bsstudio's documentation!
    :maxdepth: 2
    :caption: Contents:
 
+.. image::Bikesgray.jpg
 
 
 Indices and tables
