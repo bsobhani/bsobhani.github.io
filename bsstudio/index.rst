@@ -24,3 +24,12 @@ Hello World
 ===========
 
 Once you have installed bsstudio, type "designer" to load the designer. 
+
+
+.. image:: images/new_window.PNG
+.. image:: images/widgets_box.PNG
+.. image:: images/drag_button.PNG
+.. image:: images/edit_text.PNG
+.. image:: images/change_text.PNG
+.. image:: images/code_field.PNG
+.. image:: images/hello_world_demo.PNG
