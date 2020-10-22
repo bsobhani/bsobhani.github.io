@@ -84,7 +84,7 @@
               <div class="local-toc"><ul>
 <li><a class="reference internal" href="#">Welcome to bsstudio’s documentation!</a></li>
 <li><a class="reference internal" href="#indices-and-tables">Indices and tables</a></li>
-<li><a class="reference internal" href="#hello-world">Hello World</a></li>
+<li><a class="reference internal" href="#tutorial">Tutorial</a></li>
 </ul>
 </div>
             
@@ -164,15 +164,24 @@
 <li><p><a class="reference internal" href="search.html"><span class="std std-ref">Search Page</span></a></p></li>
 </ul>
 </div>
-<div class="section" id="hello-world">
-<h1>Hello World<a class="headerlink" href="#hello-world" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="tutorial">
+<h1>Tutorial<a class="headerlink" href="#tutorial" title="Permalink to this headline">¶</a></h1>
 <p>Once you have installed bsstudio, type “designer” to load the designer. When the designer opens, you will be presented with the following dialog:</p>
 <img alt="_images/new_window.PNG" src="_images/new_window.PNG" />
 <p>Select “Widget” and click “Ok”. Next scroll to the bottom of the widgets panel on the left side of the screen. You should see this:</p>
 <img alt="_images/widgets_box.PNG" src="_images/widgets_box.PNG" />
 <p>These are the BS Studio widgets. These are the widgets that you can drag and drop to create GUIs for Bluesky.</p>
-<p>Drag the RECustomPlan widget from the widgets panel onto the window. It should look like this:</p>
+<p>Drag the RECustomPlan widget from the widgets panel onto the window.  It should look like this:</p>
 <img alt="_images/drag_button.PNG" src="_images/drag_button.PNG" />
+<p>This can be used to run any Bluesky plan. Select the button and then turn your attention to the property panel on the right side of the screen. Fill in the fields as follows:</p>
+<p>RunEngine: This is the name of your RunEngine object in bluesky. On NSLS-II beamlines, this will be “RE”.</p>
+<p>plan: This is the name of your plan function that you want the RunEngine to run.</p>
+<p>arguments: Click “Change String List” and enter the arguments to your plan here. These can be either positional arguments or named arguments e.g. “num=5”.</p>
+<p>When you are finished, it should look something like this:</p>
+<img alt="_images/custom_RE_plan.png" src="_images/custom_RE_plan.png" />
+<p>Next, save the file as “tutorial.ui”. Then open bsui and type:</p>
+<p>import bsstudio
+bsstudio.load(“tutorial.ui”)</p>
 </div>
 
 
