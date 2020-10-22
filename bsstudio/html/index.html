@@ -84,6 +84,7 @@
               <div class="local-toc"><ul>
 <li><a class="reference internal" href="#">Welcome to bsstudio’s documentation!</a></li>
 <li><a class="reference internal" href="#indices-and-tables">Indices and tables</a></li>
+<li><a class="reference internal" href="#installation">Installation</a></li>
 <li><a class="reference internal" href="#tutorial">Tutorial</a></li>
 </ul>
 </div>
@@ -163,6 +164,16 @@
 <li><p><a class="reference internal" href="py-modindex.html"><span class="std std-ref">Module Index</span></a></p></li>
 <li><p><a class="reference internal" href="search.html"><span class="std std-ref">Search Page</span></a></p></li>
 </ul>
+</div>
+<div class="section" id="installation">
+<h1>Installation<a class="headerlink" href="#installation" title="Permalink to this headline">¶</a></h1>
+<p>The following creates an environment called bsstudio and installs BS Studio in it, along with its dependencies:</p>
+<p>conda create –name bsstudio -c conda-forge -c bsobhani bsstudio</p>
+<p>On some conda setups, you may have to specify the full url of the channels, like this:</p>
+<p>conda create –name bsstudio -c <a class="reference external" href="https://conda.anaconda.org/conda-forge">https://conda.anaconda.org/conda-forge</a> -c <a class="reference external" href="https://conda.anaconda.org/bsobhani">https://conda.anaconda.org/bsobhani</a> bsstudio</p>
+<p>You can also install using pip, by doing:</p>
+<p>pip install bsstudio</p>
+<p>At NSLS-II, I recommend keeping two separate environments: One where you run the designer and the other environment would be the bluesky collection environment. The reason I recommend keeping two separate environments is because the designer has stricter version requirements than running the screens, and you may run into problems if you impose version requirements on an environment shared by as many programs as the bluesky collection environment. I would install bsstudio in the designer environment using conda, and install bsstudio in the collection environment using pip.</p>
 </div>
 <div class="section" id="tutorial">
 <h1>Tutorial<a class="headerlink" href="#tutorial" title="Permalink to this headline">¶</a></h1>
