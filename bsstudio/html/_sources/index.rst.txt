@@ -23,7 +23,7 @@ Indices and tables
 Hello World
 ===========
 
-Once you have installed bsstudio, type "designer" to load the designer. 
+Once you have installed bsstudio, type "designer" to load the designer. Test
 
 
 .. image:: images/new_window.PNG
