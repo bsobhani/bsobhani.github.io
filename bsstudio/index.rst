@@ -52,4 +52,5 @@ When you are finished, it should look something like this:
 Next, save the file as "tutorial.ui". Then open bsui and type:
 
 import bsstudio
+
 bsstudio.load("tutorial.ui")
