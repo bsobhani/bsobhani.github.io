@@ -15,7 +15,9 @@ Installation
 ============
 The following creates an environment called bsstudio and installs BS Studio in it, along with its dependencies:
 
-conda create --name bsstudio -c conda-forge -c bsobhani bsstudio
+.. code-block:: bash
+
+  conda create --name bsstudio -c conda-forge -c bsobhani bsstudio
 
 On some conda setups, you may have to specify the full url of the channels, like this:
 
