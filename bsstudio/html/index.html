@@ -162,9 +162,13 @@
 </pre></div>
 </div>
 <p>On some conda setups, you may have to specify the full url of the channels, like this:</p>
-<p>conda create –name bsstudio -c <a class="reference external" href="https://conda.anaconda.org/conda-forge">https://conda.anaconda.org/conda-forge</a> -c <a class="reference external" href="https://conda.anaconda.org/bsobhani">https://conda.anaconda.org/bsobhani</a> bsstudio</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>conda create --name bsstudio -c https://conda.anaconda.org/conda-forge -c https://conda.anaconda.org/bsobhani bsstudio
+</pre></div>
+</div>
 <p>You can also install using pip, by doing:</p>
-<p>pip install bsstudio</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>pip install bsstudio
+</pre></div>
+</div>
 <p>At NSLS-II, I recommend keeping two separate environments: One where you run the designer and the other environment would be the bluesky collection environment. The reason I recommend keeping two separate environments is because the designer has stricter version requirements than running the screens, and you may run into problems if you impose version requirements on an environment shared by as many programs as the bluesky collection environment.</p>
 </div>
 <div class="section" id="tutorial">
@@ -183,8 +187,11 @@
 <p>When you are finished, it should look something like this:</p>
 <img alt="_images/custom_RE_plan.png" src="_images/custom_RE_plan.png" />
 <p>Next, save the file as “tutorial.ui”. Then open bsui and type:</p>
-<p>import bsstudio</p>
-<p>bsstudio.load(“tutorial.ui”)</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">bsstudio</span>
+
+<span class="n">bsstudio</span><span class="o">.</span><span class="n">load</span><span class="p">(</span><span class="s2">&quot;tutorial.ui&quot;</span><span class="p">)</span>
+</pre></div>
+</div>
 </div>
 
 
