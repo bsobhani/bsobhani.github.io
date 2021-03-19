@@ -74,6 +74,19 @@ Next, save the file as "tutorial.ui". Then open bsui and type:
 Gallery
 ===========
 
+
+.. figure:: images/simple_gui.PNG
+
+   A simple BS Studio GUI for running bluesky scans
+
 .. figure:: images/bsstudio_bluesky_widgets.PNG
 
    A simple BS Studio GUI incorporating both the SearchWidget from `bluesky-widgets <http://blueskyproject.io/bluesky-widgets/>`_ and the motor slit template included with BS Studio.
+
+.. figure:: images/ses_interface.PNG
+
+   An electron analyser interface from the `ESM beamline <https://www.bnl.gov/ps/beamlines/beamline.php?r=21-ID-1>`_
+
+
+
+
