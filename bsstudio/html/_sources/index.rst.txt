@@ -76,4 +76,4 @@ Gallery
 
 .. figure:: images/bsstudio_bluesky_widgets.PNG
 
-   A simple BS Studio GUI incorporating both the SearchWidget from `bluesky-widgets <http://blueskyproject.io/bluesky-widgets/>` and the motor slit template included with BS Studio.
+   A simple BS Studio GUI incorporating both the SearchWidget from `bluesky-widgets <http://blueskyproject.io/bluesky-widgets/>`_ and the motor slit template included with BS Studio.
